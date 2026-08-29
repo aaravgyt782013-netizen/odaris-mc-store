@@ -1,2 +1,2 @@
 import StoreClient from './StoreClient';
-export default function Store(){return <StoreClient/>}
+export default function StorePage(){return <StoreClient view="store"/>}
