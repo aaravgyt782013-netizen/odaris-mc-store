@@ -1,2 +1,5 @@
-import StoreClient from '../store/StoreClient';
-export default function AccountPage(){return <StoreClient view="account"/>}
+import AccountClient from './AccountClient';
+
+export default function AccountPage() {
+  return <AccountClient />;
+}
