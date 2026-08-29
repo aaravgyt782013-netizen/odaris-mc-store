@@ -1,0 +1,20 @@
+:root{--a:#001cff!important;--bg:#080808!important;--p:#111216!important;--p2:#17191d!important;--line:#292c31!important;--muted:#8f949e!important;--txt:#f7f7f8!important}
+/* Restore the original Odaris black + electric-blue visual identity without removing the new features. */
+.odaris-shell{background:radial-gradient(circle at 75% 0,rgba(0,28,255,.10),transparent 27%),#080808!important}
+.brand-mark,.brand b,em,.eyebrow,.section-heading small,.product-body>small,.product-buy strong,.checkout-strip svg,.checkout-strip a,.payment-options svg,.payment-box a,.history-right small,.empty-inline a,.switch-auth{color:#001cff!important}
+.status-dot{background:#25e85b!important;box-shadow:0 0 10px #25e85b!important}
+.top-store b,.tab.active,.primary,.server-address button,.badge{background:#001cff!important;color:#fff!important;border-color:#001cff!important}
+.login-btn{background:#101216!important;color:#fff!important;border-color:#30343d!important}
+.nav-item.active{background:#12162a!important;box-shadow:inset 3px 0 #001cff!important}.nav-item.active svg:first-child{color:#001cff!important}
+.info-icon,.account-avatar,.history-icon{background:#11183a!important;color:#001cff!important}
+.hero-card,.server-address,.info-card,.feature-banner,.product-card,.checkout-strip,.auth-card,.account-card,.success-card,.checkout-form,.order-summary,.rule-card,.history-card,.admin-editor,.admin-list,.empty-inline{border-color:#292c31!important;background:#101216!important}
+.product-art{background:radial-gradient(circle,rgba(0,28,255,.18),transparent 58%),linear-gradient(145deg,#17191e,#0d0d0f)!important}
+.cube{border-color:#263cff!important;background:#11183a!important;color:#001cff!important}
+.product-buy button{background:#001cff!important;color:#fff!important;border-color:#001cff!important}
+.tab{background:#111216!important;color:#a7abb3!important}.tab.active{color:#fff!important}
+.server-address button{box-shadow:0 0 18px rgba(0,28,255,.22)}
+.feature-banner{background:linear-gradient(120deg,#0d1124,#101114)!important}
+.payment-options button.selected{border-color:#001cff!important;background:#11162b!important}
+.admin-warning{border-color:#30364a!important;background:#101424!important}
+.primary:hover,.product-buy button:hover,.server-address button:hover,.tab.active:hover{filter:brightness(1.18)}
+@media(max-width:600px){.hero-card h1,.page-head h1{letter-spacing:-3px}.server-address strong{font-size:18px}}
