@@ -1,1 +1,8 @@
-{"name":"odaris-mc-store","version":"2.1.0","private":true,"scripts":{"dev":"next dev","build":"next build","start":"next start","lint":"next lint"},"dependencies":{"next":"latest","react":"latest","react-dom":"latest","lucide-react":"latest","next-auth":"latest"},"devDependencies":{"typescript":"latest","@types/node":"latest","@types/react":"latest","@types/react-dom":"latest"}}
+{
+  "name": "odaris-mc-store",
+  "version": "2.2.0",
+  "private": true,
+  "scripts": {"dev":"next dev","build":"next build","start":"next start","lint":"next lint"},
+  "dependencies": {"next":"latest","react":"latest","react-dom":"latest","lucide-react":"latest","@clerk/nextjs":"latest"},
+  "devDependencies": {"typescript":"latest","@types/node":"latest","@types/react":"latest","@types/react-dom":"latest"}
+}
