@@ -19,7 +19,7 @@ function AccountDetails() {
       <div className="account-actions">
         <a className="primary" href="/history"><ShoppingBag /> PURCHASE HISTORY <ArrowRight /></a>
         {isAdmin && <a className="secondary" href="/admin"><ShieldCheck /> ADMIN PANEL</a>}
-        <div className="account-profile"><UserButton afterSignOutUrl="/account" showName /></div>
+        <div className="account-profile"><UserButton /></div>
       </div>
     </div>
   );
